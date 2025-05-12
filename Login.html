@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Login Page</title>
+    <meta charset="UTF-8">
+    <title>LOGIN </title>
 </head>
 <body>
-
-  <form action="/login" method="POST">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required><br><br>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-
-    <button type="submit">Login</button>
-
-
-    <!-- Optional: Forgot Password link -->
-    <a href="#">Forgot Password?</a>
-  </form>
-  <button class="login-btn" onclick="func()"
-  <script>
-    function func(){
-    var email = document.getElementById("username").value;
-    var password= document.getElementById("Password").value;
-      Window.location.assign("index.html")
-    }
-  </Script> 
-
+    <selection>
+        <h1>Login</h1>
+        <div class="login-form">
+            <h4>Username</h4>
+            <div class="Username-input">
+                <i class="fas fa-user"></i>
+                <input type="email" placeholder="type your Username" id="Username">
+                </div>
+                <h4>Password</h4>
+            <div class="Password-input">
+                <i class="fas fa-lock"></i>
+                <input type="Password" placeholder="type your Password" id="Password">
+                </div>
+             <p>Forget Password?</p>
+             </div>
+             <button class="login-btn" on click="func()">
+                 LOGIN
+                 </button>
+           <div class="alternative-signup">
+               <p>not a member? <span>sign-up</span></p>
+           </div> 
+           </selection> 
+           <script
+               function fuck(){
+               var email= document.getElementById("Username").value;
+               var pass=document.getElementById("Possword").value;
+            if (email =="narasimha891917@gmail.com" && Pass =="123456"){
+            alert("success full!")
+            window.location.assign("index.html")
+            }
+            else{
+            alert("wrong entry invalid")
+            }
+           ></script>
 </body>
 </html>
