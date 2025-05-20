@@ -1,43 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>LOGIN </title>
+<title> SWIFT RECORDS </title>
+
 </head>
+
 <body>
-    <selection>
-        <h1>Login</h1>
-        <div class="login-form">
-            <h4>Username</h4>
-            <div class="Username-input">
-                <i class="fas fa-user"></i>
-                <input type="email" placeholder="type your Username" id="Username">
-                </div>
-                <h4>Password</h4>
-            <div class="Password-input">
-                <i class="fas fa-lock"></i>
-                <input type="Password" placeholder="type your Password" id="Password">
-                </div>
-             <p>Forget Password?</p>
-             </div>
-             <button class="login-btn" on click="func()">
-                 LOGIN
-                 </button>
-           <div class="alternative-signup">
-               <p>not a member? <span>sign-up</span></p>
-           </div> 
-           </selection> 
-           <script
-               function fuck(){
-               var email= document.getElementById("Username").value;
-               var pass= document.getElementById("Possword").value;
-            if (email =="narasimha891917@gmail.com" && Pass =="123456"){
-            alert("success full!")
-            window.location.href="index.html"
-            }
-            else{
-            alert("wrong entry invalid")
-            }
-           ></script>
-</body>
-</html>
+
+<h1> Registration Form </h1> <form action="/submit" method="post">
+
+<label for="name"> Name: </label> <input type="text" id="name" name="name"> <br> <br>
+
+<label for="email"> Email: </label>
+
+<input type="email" id="email" name="email"> <br> <br>
+
+<label for="password"> Password: </label>
+
+<input type="password" id="password" name="password"> <br> <br>
+<label for="age"> Age: </label>
+
+<input type="number" id="age" name="age"> <br> <br>
+
+<label for="dob"> Date of Birth:</label>
+
+<input type="date" id="dob" name="dob"> <br> <br>
+
+    
+    
+    </form>
+    <form action="" method="post">
+  <!-- Form elements (e.g., input fields, buttons) go here -->
+  <input type="submit" value="Submit">
+    </form>
